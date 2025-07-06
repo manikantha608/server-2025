@@ -2,7 +2,7 @@ const nodemailer = require("nodemailer");
 const dotenv = require("dotenv")
 const OTPTemplate = require("../Template/OTP")
 
-dotenv.config("./../config.env")
+dotenv.config()
 
 const NODEMAILER_USER = "manilaveti321@gmail.com";
 const NODEMAILER_APP_PASSWORD = "lbfmnomexllvmklu";
